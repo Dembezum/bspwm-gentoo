@@ -10,6 +10,7 @@ Hey!
 # Overview
 - Operating System: `Gentoo Linux`
 - Window Manager: `Bspwm`
+- Borders: `chwb2` 
 - Launcher: `Rofi`/`Dmenu` 
 - Notifications: `Dunst`
 - Terminal: `rxvt-unicode`
