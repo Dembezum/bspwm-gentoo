@@ -38,7 +38,7 @@ Hey!
 
 # Screenshots
  ## Bspwm
-![Rice.png](Rice.png)
+![Desktop.png](Desktop.png)
 
 ```
 ## Keybindings
