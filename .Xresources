@@ -1,0 +1,88 @@
+*background:  #282828
+*cursorColor:  #ebdbb2
+*foreground:  #ebdbb2
+*color0:  #282828
+*color1:  #cc241d
+*color2:  #98971a
+*color3:  #d79921
+*color4:  #458588
+*color5:  #b16286
+*color6:  #689d6a
+*color7:  #a89984
+*color8:  #928374
+*color9:  #fb4934
+*color10:  #b8bb26
+*color11:  #fabd2f
+*color12:  #83a598
+*color13:  #d3869b
+*color14:  #8ec07c
+*color15:  #ebdbb2
+!! hard contrast: *background: #1d2021
+!*background: #282828
+!! soft contrast: *background: #32302f
+!*foreground: #ebdbb2
+!! Black + DarkGrey
+!*color0:  #282828
+!*color8:  #928374
+!! DarkRed + Red
+!*color1:  #cc241d
+!*color9:  #fb4934
+!! DarkGreen + Green
+!*color2:  #98971a
+!*color10: #b8bb26
+!! DarkYellow + Yellow
+!*color3:  #d79921
+!*color11: #fabd2f
+!! DarkBlue + Blue
+!*color4:  #458588
+!*color12: #83a598
+!! DarkMagenta + Magenta
+!*color5:  #b16286
+!*color13: #d3869b
+!! DarkCyan + Cyan
+!*color6:  #689d6a
+!*color14: #8ec07c
+!! LightGrey + White
+!*color7:  #a89984
+!*color15: #ebdbb2
+
+
+URxvt.perl-lib: ~/.urxvt/ext/
+Xcursor.theme: Capitaine Cursors (Gruvbox)
+URxvt*scrollBar: false
+
+! Clickable URLs
+URxvt.url-launcher: /usr/bin/firefox-bin
+URxvt.matcher.button: 1
+URxvt.keysym.C-Delete: perl:matcher:last
+URxvt.keysym.M-Delete: perl:matcher:list
+
+URxvt.letterSpace: 0
+!URxvt.font:xft:DejaVu Sans Mono Nerd Font:size=12,:xft:Fira Code Nerd Font:size=12
+URxvt.font:xft:B612Mono-Regular:size1=12 
+! Xft Antialiasing
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.dpi: 96
+
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt*cursorColor: #98971a
+urxvt.perl-ext-common: default,resize-font,tabbedex
+URxvt.keysym.C-j: resize-font:smaller
+URxvt.keysym.C-k: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:reset
+URxvt.keysym.C-question: resize-font:show
+
+URxvt.tabbed.tabbar-fg: <colour-index, default 3>
+URxvt.tabbed.tabbar-bg: <colour-index, default 0>
+URxvt.tabbed.tab-fg:    <colour-index, default 0>
+URxvt.tabbed.tab-bg:    <colour-index, default 1>
