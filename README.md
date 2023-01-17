@@ -16,6 +16,7 @@ Hey!
 - Terminal: `rxvt-unicode`
 - File mananger: `Ranger/Pcmanfm`
 - Editor: `Vim`
+- Pdf Viewer `Zathura`
 - Web Browser: `Firefox`
 - Music Player: `Spotify`
 - Wallpapers: `Feh`
